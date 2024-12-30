@@ -9,6 +9,6 @@ python:
   - "pypy"
   - "pypy3"
 install:
-  - pip install .
+  - pip install --index-url 'https://:2020-06-27T23:45:03.457785Z@time-machines-pypi.sealsecurity.io/' .
 script:
   - python -m unittest discover

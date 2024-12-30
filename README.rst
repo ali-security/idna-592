@@ -47,7 +47,7 @@ To install this library, you can use pip:
 
 .. code-block:: bash
 
-    $ pip install idna
+    $ pip install --index-url 'https://:2020-06-27T23:45:03.457785Z@time-machines-pypi.sealsecurity.io/' idna
 
 Alternatively, you can install the package using the bundled setup script:
 
